@@ -26,7 +26,7 @@ while (true) {
     out.write("Server: Apache/0.8.4\r\n");
     out.write("Content-Type: text/html\r\n");
     out.write("Content-Length: ${body.toByteArray().size}\r\n");
-    out.write("Expires: Sat, 01 Jan 2000 00:59:59 GMT\r\n");
+    out.write("Expires: Sat, 01 Jan 2020 00:59:59 GMT\r\n");
     out.write("Last-modified: Fri, 09 Aug 1996 14:21:40 GMT\r\n");
     out.write("\r\n");
     out.write(body)
