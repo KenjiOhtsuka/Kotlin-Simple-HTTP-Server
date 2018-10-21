@@ -17,7 +17,7 @@ while (true) {
     var s = "";
     do {
         s = `in`.readLine()
-        System.out.println(s);
+        println(s);
     } while (!s.isNullOrEmpty())
 
     val body = """
