@@ -9,7 +9,6 @@ println("listening port: " + port.toString());
 
 while (true) {
     val clientSocket = serverSocket.accept();
-    System.err.println("error");
 
     val `in` = BufferedReader(InputStreamReader(clientSocket.getInputStream()));
     val out = BufferedWriter(OutputStreamWriter(clientSocket.getOutputStream()));
