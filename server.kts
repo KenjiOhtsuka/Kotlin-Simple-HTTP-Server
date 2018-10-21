@@ -21,7 +21,7 @@ while (true) {
     } while (!s.isNullOrEmpty())
 
     val body = """
-        <!DOCTYPE html><html><head><title>Exemple</title></head><body><p>Ceci est une page d'exemple.</p></body></html>
+        <!DOCTYPE html><html><head><title>Exemple</title></head><body><p>Server exemple.</p></body></html>
     """.trimIndent()
 
     out.write("HTTP/1.0 200 OK\r\n");
