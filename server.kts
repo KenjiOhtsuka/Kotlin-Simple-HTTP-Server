@@ -1,6 +1,5 @@
 import java.io.*
 import java.net.ServerSocket
-import java.net.Socket
 
 val port = 8081;
 val serverSocket = ServerSocket(port);
