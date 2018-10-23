@@ -5,13 +5,13 @@ val port = 8081;
 val serverSocket = ServerSocket(port);
 println("listening port: " + port.toString());
 
+lateinit var s: String
 while (true) {
     val clientSocket = serverSocket.accept();
 
     val `in` = BufferedReader(InputStreamReader(clientSocket.getInputStream()));
     val out = BufferedWriter(OutputStreamWriter(clientSocket.getOutputStream()));
 
-    var s = "";
     do {
         s = `in`.readLine()
         println(s);
